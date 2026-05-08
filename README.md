@@ -41,8 +41,21 @@ Can we accurately predict airline recommendations based on text reviews alone? <
 ### Topic Modeling:
 
 ### Machine Learning Classification:
+There were three trained classifiers used in this analysis:
+- Native Bayes
+- Logistic Regression
+- Random Forest
 
 ## Results
+### Sentiment Analysis Findings:
+- Recommended airlines have x3 more positive language
+- Business Class had the highest median and smallest spread, making it the most consistent
+
+### Topic Modeling Findings:
+
+### Machine Learning Findings:
+- Logistic Regression performed the best out of the three classifiers at 91.90% accuracy
+  - High accuracy on both recommended and non-recommended airline predictions on the confusion matrix
 
 ## Contributors
 ### Cody Chan
