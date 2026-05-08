@@ -1,4 +1,4 @@
-# Final Project: LIS 4693 - Sentiment Analysis and Topic Modeling with Machine Learning on Airline Reviews
+# Sentiment Analysis and Topic Modeling with Machine Learning on Airline Reviews
 This repository contains all the necessary information to reproduce this project, analyzing airline customer reviews using sentiment analysis and topic modeling with machine learning classifications.
 
 **Course:** LIS 4693 Info Retrieval and Test Mining <br>
@@ -23,8 +23,7 @@ Can we accurately predict airline recommendations based on text reviews alone? <
 - CabinType: Economy, Business, First, and Premium
 
 **Dataset Location**
-[Dataset Location](Dataset Files/AirlineReviews.csv)
-
+[Dataset Location](https://github.com/cchan555/final-project/blob/1f2e60a02ca37a830cec4af18475cef836aff95c/Dataset%20Files/AirlineReviews.csv)
 
 ## Methods
 
