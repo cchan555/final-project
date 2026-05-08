@@ -15,6 +15,16 @@ Do cabin class (Economy, Business, First, and Premium) affect airline review sen
 Can we accurately predict airline recommendations based on text reviews alone? <br>
 
 ## Data
+**Source:** Airline Reviews Dataset - 129,455 reviews [Kaggle Dataset](https://www.kaggle.com/datasets/joelljungstrom/128k-airline-reviews)
+
+**Variables to Consider:**
+- Review: Customer text review (Main analysis)
+- Recommended: Yes/No recommendations (Our prediction target)
+- CabinType: Economy, Business, First, and Premium
+
+**Dataset Location**
+[Dataset Location](Dataset Files/AirlineReviews.csv)
+
 
 ## Methods
 
