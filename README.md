@@ -63,3 +63,5 @@ There were three trained classifiers used in this analysis:
 - Machine Learning Classification
 ### Jackson Manor
 - Topic Modeling
+
+README file written by their respective methods.
