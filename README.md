@@ -26,8 +26,17 @@ Can we accurately predict airline recommendations based on text reviews alone? <
 [Dataset Location](https://github.com/cchan555/final-project/blob/1f2e60a02ca37a830cec4af18475cef836aff95c/Dataset%20Files/AirlineReviews.csv)
 
 ## Methods
-### Sentiemnt Analysis:
-
+### Text Preprocessing:
+- Fill in 824 missing reviews with empty strings
+- Use CountVectorizer to convert the text into word frequency counts
+- Use TF-IDF Transformer to weigh the words  by importance
+- Train/Test split of 70% training (90,618 reviews) and 30% testing (38,837 reviews)
+### Sentiment Analysis:
+- Generated four sentiemnt scores per reviews
+  - neg: Proportion of negative words that ranges from 0.0 to 1.0
+  - neu: Proportion of neutral words that ranges from 0.0 to 1.0
+  - pos: Proportion of positive words that ranges from 0.0 to 1.0
+  - compound: Overall sentiemnt score that ranges from -1.0 to 1.0
 
 ### Topic Modeling:
 
