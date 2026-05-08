@@ -22,10 +22,16 @@ Can we accurately predict airline recommendations based on text reviews alone? <
 - Recommended: Yes/No recommendations (Our prediction target)
 - CabinType: Economy, Business, First, and Premium
 
-**Dataset Location**
+**Dataset Location:**
 [Dataset Location](https://github.com/cchan555/final-project/blob/1f2e60a02ca37a830cec4af18475cef836aff95c/Dataset%20Files/AirlineReviews.csv)
 
 ## Methods
+### Sentiemnt Analysis:
+
+
+### Topic Modeling:
+
+### Machine Learning Classification:
 
 ## Results
 
