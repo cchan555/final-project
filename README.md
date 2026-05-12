@@ -6,7 +6,7 @@ This repository contains all the necessary information to reproduce this project
 **Focus:** Apply Sentiment Analysis and Topic Modeling with Machine Learning Classification <br>
 
 ## Project Overview:
-This project applies sentiment analysis, topic modeling, and machine learning to predict airline recommendations based on customer text-based reviews alone. The following dataset used contains 129,455 airline reviews. Cody analyzed the sentiment analysis pattern differences between recommended vs non-recommended airlines, whether cabin classes affect review sentiment, and whether we can accurately predict airline recommendations from review text alone through machine learning classification. Jackson analyzed (FILL IN).
+This project applies sentiment analysis, topic modeling, and machine learning to predict airline recommendations based on customer text-based reviews alone. The following dataset used contains 129,455 airline reviews. Cody analyzed the sentiment analysis pattern differences between recommended vs non-recommended airlines, whether cabin classes affect review sentiment, and whether we can accurately predict airline recommendations from review text alone through machine learning classification. Jackson utilized topic modeling to understand underlying themes of discourse by passengers across all of the airline reviews and what amount of topics reveals the most relevant insight.
 
 ### Overarching Question:
 How does sentiment analysis differ between recommended and non-recommended airlines? <br>
