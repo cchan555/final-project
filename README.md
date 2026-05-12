@@ -64,6 +64,15 @@ There were three trained classifiers used in this analysis:
 - Business Class had the highest median and smallest spread, making it the most consistent
 
 ### Topic Modeling Findings:
+- 5 Topics was chosen as the best compared ground 7 and 10. At 7 there wasnt much of a difference, 10 was too separated and niche.
+  - Example: At 5 Topics we had a clear cluster/topic for Cabin Experience and at 10 it was split into various others. You could make a case for more specific topics but in this case a more generalized topic selection was better
+- K (topics) C (coherence)
+ - K = 5 (Best)
+  - C = 0.425
+ - K = 7
+  - C = 0.405
+ - K = 10
+  - C = 0.393
 
 ### Machine Learning Findings:
 - Logistic Regression performed the best out of the three classifiers at 91.90% accuracy
