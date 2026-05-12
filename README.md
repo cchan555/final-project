@@ -11,7 +11,8 @@ This project applies sentiment analysis, topic modeling, and machine learning to
 ### Overarching Question:
 How does sentiment analysis differ between recommended and non-recommended airlines? <br>
 Do cabin class (Economy, Business, First, and Premium) affect airline review sentiemnt? <br>
-(TOPIC MODELING FILL IN) <br>
+What are the underlying themes that can be extracted from the dataset? <br>
+What part of the Airline/Flight experience are passengers going to write a review about? <br>
 Can we accurately predict airline recommendations based on text reviews alone? <br>
 
 ## Data
@@ -39,6 +40,17 @@ Can we accurately predict airline recommendations based on text reviews alone? <
   - compound: Overall sentiemnt score that ranges from -1.0 to 1.0
 
 ### Topic Modeling:
+- Tokenization and cleaning process
+- Removed common words related to air travel and destinations; "flight", "France".
+- LDA Model parameter tuning, tested various K values = 5, 7, 10. Coherence(C) and cluster sizes/distances were taken into account.
+ - K = 5 (Best)
+  - C = 0.425
+ - K = 7
+  - C = 0.405
+ - K = 10
+  - C = 0.393
+- 5 Topics was chosen as the best compared ground 7 and 10. At 7 there wasnt much of a difference, 10 was too separated and niche.
+  - Example: At 5 Topics we had a clear cluster/topic for Cabin Experience and at 10 it was split into various others. You could make a case for more specific topics but in this case a more generalized topic selection was better.
 
 ### Machine Learning Classification:
 There were three trained classifiers used in this analysis:
